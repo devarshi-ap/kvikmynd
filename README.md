@@ -3,6 +3,13 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 
 <br>
 
+## TechStack & Dependencies:
+* _[ `Node.js`, `Express.js`, `Mongoose`, `MongoDB` ]_
+* _[ `Insomnia` testing, `Swagger` docs ]_
+* <h6 style="text-decoration: line-through">Spotify music for sanity</h6>
+
+<br>
+
 ## Core Resources:
 
 <br>
@@ -22,10 +29,4 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 <br>
 
 ### Querying
-- Year (`GET /v1/movies?year=2022`)
-- Genre (`GET /v1/movies?genre`)
-    * action, comedy, animated, etc..
-- Title
-- Director
-- Rating
-- ID
+- 

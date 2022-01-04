@@ -1,8 +1,6 @@
 # DisneyDB-REST-API
 A pragmatic restful api built with widely adopted standards &amp; practices for a Disney movies-DB data model.
 
-**_`Could be a Disney or something specific movies db (makes dataset easier to gather)`_**
-
 <br>
 
 ## Core Resources:

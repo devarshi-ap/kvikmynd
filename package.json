@@ -1,5 +1,5 @@
 {
-  "name": "MCU-REST-API",
+  "name": "mcu-rest-api",
   "version": "1.0.0",
   "main": "server.js",
   "repository": "https://github.com/devarshi-ap/MCU-REST-API.git",
@@ -7,7 +7,8 @@
   "license": "MIT",
   "description": "A pragmatic restful api built with widely adopted standards &amp; practices for a Marvel movies-DB data model.",
   "private": false,
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }

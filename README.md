@@ -4,7 +4,7 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 <br>
 
 ## Core Resources:
-----
+---
 
 <br>
 

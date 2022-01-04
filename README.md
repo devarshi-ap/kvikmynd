@@ -1,5 +1,5 @@
 # DisneyDB-REST-API
-A pragmatic restful api built with widely adopted standards &amp; practices for a Disney movies-DB data model.
+A pragmatic restful api built with widely adopted standards &amp; practices for a Marvel movies-DB data model.
 
 <br>
 
@@ -8,7 +8,13 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 
 <br>
 
-### Categories
+### Core Resources:
+- All movies (`GET /v1/movies`)
+- Movies by id (`GET /v1/movies/:id`)
+
+<br>
+
+### Categories:
 - Top rated movies (`GET /v1/movies/category/top_rated`)
 - Upcoming movies (`GET /v1/movies/category/upcoming`)
 - Now playing movies (`GET /v1/movies/category/now_playing`)
@@ -18,8 +24,8 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 ### Querying
 - Year (`GET /v1/movies?year=2022`)
 - Genre (`GET /v1/movies?genre`)
-    * action, comedy, romance, etc..
+    * action, comedy, animated, etc..
 - Title
 - Director
 - Rating
-- 
+- ID

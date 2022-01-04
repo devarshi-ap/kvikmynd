@@ -1,0 +1,21 @@
+{
+  "name": "mcu-rest-api",
+  "version": "1.0.0",
+  "description": "A pragmatic restful api built with widely adopted standards &amp; practices for a Marvel movies-DB data model.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devarshi-ap/MCU-REST-API.git"
+  },
+  "keywords": ["MCU", "Marvel", "dataset", "JSON", "node", "express", "mongoose", "mongodb", "javascript", "server", "http"],
+  "author": "Devarshi Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devarshi-ap/MCU-REST-API/issues"
+  },
+  "homepage": "https://github.com/devarshi-ap/MCU-REST-API#readme"
+}

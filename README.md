@@ -8,9 +8,10 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 
 <br>
 
-### Core Resources:
+### Movies:
 - All movies (`GET /v1/movies`)
 - Movies by id (`GET /v1/movies/:id`)
+- Movies by rating-name (`GET /v1/movies/:rating_name`)
 
 <br>
 

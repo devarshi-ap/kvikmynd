@@ -1,4 +1,4 @@
-# DisneyDB-REST-API
+# MCU-REST-API
 A pragmatic restful api built with widely adopted standards &amp; practices for a Marvel movies-DB data model.
 
 <br>

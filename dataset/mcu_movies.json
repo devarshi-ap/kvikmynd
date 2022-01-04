@@ -9,8 +9,9 @@
     "running_time": 126,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "140,000,000",
-    "gross": "318,298,180"
+    "budget": 140000000,
+    "gross": 318298180,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "The Incredible Hulk",
@@ -22,8 +23,9 @@
     "running_time": 112,
     "rating_name": "PG-13",
     "watched": false,
-    "budget": "150,000,000",
-    "gross": "134,518,390"
+    "budget": 150000000,
+    "gross": 134518390,
+    "misc_tags": [] 
   },
   {
     "title": "Iron Man 2",
@@ -35,8 +37,9 @@
     "running_time": 124,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "200,000,000",
-    "gross": "312,057,433"
+    "budget": 200000000,
+    "gross": 312057433,
+    "misc_tags": [] 
   },
   {
     "title": "Thor",
@@ -48,8 +51,9 @@
     "running_time": 115,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "150,000,000",
-    "gross": "181,015,141"
+    "budget": 150000000,
+    "gross": 181015141,
+    "misc_tags": [] 
   },
   {
     "title": "Captain America: The First Avenger",
@@ -61,8 +65,9 @@
     "running_time": 124,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "140,000,000",
-    "gross": "176,636,816"
+    "budget": 140000000,
+    "gross": 176636816,
+    "misc_tags": [] 
   },
   {
     "title": "The Avengers",
@@ -74,8 +79,9 @@
     "running_time": 143,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "220,000,000",
-    "gross": "623,279,547"
+    "budget": 220000000,
+    "gross": 623279547,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "Iron Man 3",
@@ -87,8 +93,9 @@
     "running_time": 130,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "200,000,000",
-    "gross": "408,992,272"
+    "budget": 200000000,
+    "gross": 408992272,
+    "misc_tags": [] 
   },
   {
     "title": "Thor: The Dark World",
@@ -100,8 +107,9 @@
     "running_time": 112,
     "rating_name": "PG-13",
     "watched": false,
-    "budget": "170,000,000",
-    "gross": "206,360,018"
+    "budget": 170000000,
+    "gross": 206360018,
+    "misc_tags": [] 
   },
   {
     "title": "Captain America: The Winter Soldier",
@@ -113,8 +121,9 @@
     "running_time": 136,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "170,000,000",
-    "gross": "259,746,958"
+    "budget": 170000000,
+    "gross": 259746958,
+    "misc_tags": [] 
   },
   {
     "title": "Guardians of the Galaxy",
@@ -126,8 +135,9 @@
     "running_time": 121,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "170,000,000",
-    "gross": "333,130,696"
+    "budget": 170000000,
+    "gross": 333130696,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "Avengers: Age of Ultron",
@@ -139,8 +149,9 @@
     "running_time": 141,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "250,000,000",
-    "gross": "458,991,599"
+    "budget": 250000000,
+    "gross": 458991599,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "Ant-Man",
@@ -152,8 +163,9 @@
     "rating_name": "PG-13",
     "release_date": "2015-07-17",
     "watched": true,
-    "budget": "130,000,000",
-    "gross": "179,017,481"
+    "budget": 130000000,
+    "gross": 179017481,
+    "misc_tags": [] 
   },
   {
     "title": "Captain America: Civil War",
@@ -165,8 +177,9 @@
     "running_time": 147,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "250,00,000",
-    "gross": "408,084,349"
+    "budget": 25000000,
+    "gross": 408084349,
+    "misc_tags": [] 
   },
   {
     "title": "Doctor Strange",
@@ -178,8 +191,9 @@
     "running_time": 115,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "165,000,000",
-    "gross": "232,641,920"
+    "budget": 165000000,
+    "gross": 232641920,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "Guardians of the Galaxy Vol. 2",
@@ -191,8 +205,9 @@
     "running_time": 136,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "200,000,000",
-    "gross": "389,213,281"
+    "budget": 200000000,
+    "gross": 389213281,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "Spider-Man: Homecoming",
@@ -204,8 +219,9 @@
     "running_time": 133,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "175,000,000",
-    "gross": "314,057,748"
+    "budget": 175000000,
+    "gross": 314057748,
+    "misc_tags": [] 
   },
   {
     "title": "Thor: Ragnarok",
@@ -217,8 +233,9 @@
     "running_time": 130,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "180,000,000",
-    "gross": "tbd"
+    "budget": 180000000,
+    "gross": 854000000,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "Black Panther",
@@ -230,8 +247,9 @@
     "running_time": 0,
     "rating_name": "PG-13",
     "watched": false,
-    "budget": "200,000,000",
-    "gross": "1,384,000,000"
+    "budget": 200000000,
+    "gross": 1384000000,
+    "misc_tags": ["top-rated"] 
   },
   {
     "_id": 19,
@@ -243,8 +261,9 @@
     "running_time": 149,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "316,000,000",
-    "gross": "2,048,359,754"
+    "budget": 316000000,
+    "gross": 2048359754,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "Ant-Man and the Wasp",
@@ -256,8 +275,9 @@
     "running_time": 118,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "150,000,000",
-    "gross": "622,000,000"
+    "budget": 150000000,
+    "gross": 622000000,
+    "misc_tags": [] 
   },
   {
     "title": "Captain Marvel",
@@ -269,8 +289,9 @@
     "running_time": 124,
     "rating_name": "PG-13",
     "watched": false,
-    "budget": "152,000,000",
-    "gross": "1,128,000,000"
+    "budget": 152000000,
+    "gross": 1128000000,
+    "misc_tags": [] 
   },
   {
     "title": "Avengers: Endgame",
@@ -282,8 +303,9 @@
     "running_time": 182,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "385,000,000",
-    "gross": "2,800,000,000"
+    "budget": 385000000,
+    "gross": 2800000000,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "Spider-Man: Far From Home",
@@ -295,8 +317,9 @@
     "running_time": 129,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "160,000,000",
-    "gross": "1,100,000,000"
+    "budget": 160000000,
+    "gross": 1100000000,
+    "misc_tags": ["top-rated"] 
   },
   {
     "title": "Black Widow",
@@ -308,8 +331,9 @@
     "running_time": 134,
     "rating_name": "PG-13",
     "watched": false,
-    "budget": "200,000,000",
-    "gross": "379,600,000"
+    "budget": 200000000,
+    "gross": 379600000,
+    "misc_tags": ["now-playing"]
   },
   {
     "title": "Shang-Chi and the Legend of the Ten Rings",
@@ -321,8 +345,9 @@
     "running_time": 132,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "175,000,000",
-    "gross": "363,400,000"
+    "budget": 175000000,
+    "gross": 363400000,
+    "misc_tags": ["top-rated", "now-playing"]
   },
   {
     "title": "Eternals",
@@ -334,8 +359,9 @@
     "running_time": 157,
     "rating_name": "PG-13",
     "watched": false,
-    "budget": "200,000,000",
-    "gross": "300,000,000"
+    "budget": 200000000,
+    "gross": 300000000,
+    "misc_tags": ["now-playing"]
   },
   {
     "title": "Spider-Man: No Way Home",
@@ -347,8 +373,9 @@
     "running_time": 150,
     "rating_name": "PG-13",
     "watched": true,
-    "budget": "200,000,000",
-    "gross": "1,500,000,000"
+    "budget": 200000000,
+    "gross": 1500000000,
+    "misc_tags": ["top-rated", "now-playing"]
   },
   {
     "title": "Doctor Strange in the Multiverse of Madness",
@@ -361,7 +388,8 @@
     "rating_name": "tbd",
     "watched": false,
     "budget": -1,
-    "gross": -1
+    "gross": -1,
+    "misc_tags": ["upcoming"]
   },
   {
     "title": "Thor: Love and Thunder",
@@ -374,7 +402,8 @@
     "rating_name": "tbd",
     "watched": false,
     "budget": -1,
-    "gross": -1
+    "gross": -1,
+    "misc_tags": ["upcoming"]
   },
   {
     "title": "Black Panther: Wakanda Forever",
@@ -387,7 +416,8 @@
     "rating_name": "tbd",
     "watched": false,
     "budget": -1,
-    "gross": -1
+    "gross": -1,
+    "misc_tags": ["upcoming"]
   },
   {
     "title": "The Marvels",
@@ -400,7 +430,8 @@
     "rating_name": "tbd",
     "watched": false,
     "budget": -1,
-    "gross": -1
+    "gross": -1,
+    "misc_tags": ["upcoming"]
   },
   {
     "title": "Guardians of the Galaxy Vol. 3",
@@ -413,7 +444,8 @@
     "rating_name": "tbd",
     "watched": false,
     "budget": -1,
-    "gross": -1
+    "gross": -1,
+    "misc_tags": ["upcoming"]
   },
   {
     "title": "Ant-Man and the Wasp: Quantumania",
@@ -426,6 +458,7 @@
     "rating_name": "tbd",
     "watched": false,
     "budget": -1,
-    "gross": -1
+    "gross": -1,
+    "misc_tags": ["upcoming"]
   }
 ]

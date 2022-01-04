@@ -16,8 +16,7 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 
 ### Movies:
 - All movies (`GET /v1/movies`)
-- Movies by id (`GET /v1/movies/:id`)
-- Movies by rating-name (`GET /v1/movies/:rating_name`)
+- Movies by id/title/phase/IMDb_rating/release_year/rating_name/watched/budget/gross
 
 <br>
 

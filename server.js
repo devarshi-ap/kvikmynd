@@ -16,7 +16,10 @@ const app = express();
 app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: true })) // Parse URL-encoded bodies
 app.use(express.json()); // body-parser deprecated
-app.use('/api', require('./routes/root')) // mount '/movies' on root route
+
+// mount sub-routes
+app.use('/v1/movies', require('./routes/query'))
+app.use('/v1/movies', require('./routes/category'))
 
 
 // listen for requests

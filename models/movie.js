@@ -57,4 +57,5 @@ var movieSchema = new Schema({
 // compile model from above schema
 var movieModel = mongoose.model('movie', movieSchema)
 
-
+// export the model
+module.exports = movieModel

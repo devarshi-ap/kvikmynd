@@ -1,7 +1,6 @@
 // import modules
 const express = require('express');
 const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const PORT = 3000;
 
@@ -15,12 +14,10 @@ const app = express();
 
 // middleware
 app.use(morgan('dev'));
-app.use(bodyParser.json());
+app.use(express.urlencoded()); // Parse URL-encoded bodies
+app.use(express.json()); // body-parser deprecated
+app.use('/api', require('./routes/root')) // mount '/movies' on root route
 
-// root route
-app.get('/', (err, res) => {
-  res.send({ message: 'hi' });
-});
 
 // listen for requests
 app.listen(PORT, function () {

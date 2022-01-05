@@ -16,7 +16,6 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 
 ### Movies:
 - All movies (`GET /v1/movies`)
-- Movies by id/title/phase/IMDb_rating/release_year/rating_name/watched/budget/gross
 
 <br>
 
@@ -27,5 +26,9 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 
 <br>
 
-### Querying
-- 
+### Querying:
+- Movies by id/title/phase/IMDb_rating/release_year/rating_name/watched/budget/gross (query string)
+- Sort movies by id/phase/IMDb_rating/release_year/budget/gross (all numbers) (`GET /v1/movies/:IMDb_rating?sorted=true`)
+
+### Watchlist:
+- Add movie to watchlist by name/id

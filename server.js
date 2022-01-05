@@ -14,7 +14,7 @@ const app = express();
 
 // middleware
 app.use(morgan('dev'));
-app.use(express.urlencoded()); // Parse URL-encoded bodies
+app.use(express.urlencoded({ extended: true })) // Parse URL-encoded bodies
 app.use(express.json()); // body-parser deprecated
 app.use('/api', require('./routes/root')) // mount '/movies' on root route
 

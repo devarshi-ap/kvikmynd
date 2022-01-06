@@ -9,7 +9,7 @@ const app = express();
 
 app
 
-  // route for top-rated movies
+  // route for query
   .get('/category/:tag', (req, res) => {
     // merge query-string object to the top-rated MQL-query object
     const tagQuery = { misc_tags: { $all: [req.params.tag] } };
@@ -19,6 +19,8 @@ app
       res.send(movies || { msg: `no movies are ${req.params.tag}` });
     });
   });
+
+
 
 // export this sub route
 module.exports = app;

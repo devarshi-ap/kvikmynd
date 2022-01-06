@@ -20,6 +20,7 @@ app.use(express.json()); // body-parser deprecated
 // mount sub-routes
 app.use('/v1/movies', require('./routes/query'))
 app.use('/v1/movies', require('./routes/category'))
+app.use('/v1/movies', require('./routes/alter'))
 
 
 // listen for requests

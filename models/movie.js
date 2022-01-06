@@ -8,7 +8,7 @@ const Schema = mongoose.Schema;
 const movieSchema = new Schema({
   title: {
     type: String,
-    required: true,
+    required: [true, 'A title is required']
   },
 
   // _id not necessarily required since MongoDB Atlas autogenerates ObjectId() for document if not specified
@@ -17,9 +17,9 @@ const movieSchema = new Schema({
   // 5 phases announced in MCU
   phase: {
     type: Number,
-    min: 1,
+    min: 0,
     max: 5,
-    required: true,
+    required: [true, 'A MCU-Movie Phase is required']
   },
 
   // IMDb scale 0-10, with -1 indicating not yet rated
@@ -27,7 +27,7 @@ const movieSchema = new Schema({
     type: Number,
     min: -1,
     max: 10,
-    required: true,
+    required: [true, 'An IMDb rating is required']
   },
 
   release_date: String,
@@ -44,7 +44,7 @@ const movieSchema = new Schema({
   
   watched: {
     type: Boolean,
-    required: true,
+    required: [true, "A Boolean value is required for the 'watched' field"]
   },
   
   budget: Number,

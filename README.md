@@ -14,9 +14,13 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 
 <br>
 
+### Root Route: (`/v1/movies`)
+
+<br>
+
 ### Query:
-- All movies (`GET /v1/movies`)
-- 
+- All movies (`GET /query`)
+- Query String (`GET /query?<query string>`)
 
 <br>
 

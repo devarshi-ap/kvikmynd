@@ -31,5 +31,11 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 <br>
 
 ### Altering Database:
-
+- Upload movie (`POST /alter/upload`)
+    * {JSON sent to server must pass Schema Validation (see models/movie.js)}
+- Update movie by query string (`PUT /alter/upload/<query string>`)
+    * {update fields in JSON sent to server}
+- Update movie by id (`PUT /alter/upload/<id>`)
+    * {update fields in JSON sent to server}
+- Delete movie by id (`DELETE /alter/removeById/<id>`)
 

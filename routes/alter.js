@@ -8,6 +8,7 @@ const express = require('express');
 const app = express();
 
 app
+  // ALL Updates and Creation return a resource representation
 
   // route for uploading movie to database
   .post('/alter/upload', (req, res) => {

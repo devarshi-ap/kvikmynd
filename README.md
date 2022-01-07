@@ -30,9 +30,10 @@ _[ `Insomnia` testing, `Swagger` docs ]_
 
 <br>
 
-### Query:
+### Querying:
 - All movies [`GET /query`]
 - Query String [`GET /query?<query string>`]
+- Sort all movies by Number-type fields (see Schema) [`GET /sort/<order>/<numerical_field>`]
 
 <br>
 
@@ -56,3 +57,4 @@ note:
 1. JSON sent in PUT requests contain fields to update)
 2. JSON sent in POST request must pass Schema Validation (see models/movie.js)
 </pre>
+

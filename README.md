@@ -24,10 +24,9 @@ A pragmatic restful api built with widely adopted standards &amp; practices for 
 
 <br>
 
-### Query by Category/Tags:
-- Top rated movies (`GET /v1/movies/category/top_rated`)
-- Upcoming movies (`GET /v1/movies/category/upcoming`)
-- Now playing movies (`GET /v1/movies/category/now_playing`)
+### Query by Categories:
+- Movies tags (`GET /category/<tag name>`)
+- Movies tags + Query String (`GET /category/<tag name>?<query string>`)
 
 <br>
 

@@ -58,3 +58,8 @@ note:
 2. JSON sent in POST request must pass Schema Validation (see models/movie.js)
 </pre>
 
+<br>
+
+TO-DO:
+1. Implement Rate Limiting to prevent API abuse
+2. Come up wiht more endpoints

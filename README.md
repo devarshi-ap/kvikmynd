@@ -43,6 +43,7 @@ _[ `Insomnia` testing, `Swagger` docs ]_
 <br>
 
 ### Altering Database:
+<<<<<<< HEAD
 
 - Upload movie [`POST /alter/upload`]
 - Update movie by query string [`PUT /alter/upload/<query string>`]
@@ -56,4 +57,13 @@ note:
 1. JSON sent in PUT requests contain fields to update)
 2. JSON sent in POST request must pass Schema Validation (see models/movie.js)
 </pre>
+=======
+- Upload movie (`POST /alter/upload`)
+    * {JSON sent to server must pass Schema Validation (see models/movie.js)}
+- Update movie by query string (`PUT /alter/upload/<query string>`)
+    * {update fields in JSON sent to server}
+- Update movie by id (`PUT /alter/upload/<id>`)
+    * {update fields in JSON sent to server}
+- Delete movie by id (`DELETE /alter/removeById/<id>`)
+>>>>>>> 10bce629a7ed87e831a931ebe0084a6c5dbcee02
 

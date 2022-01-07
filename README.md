@@ -63,3 +63,4 @@ note:
 TO-DO:
 1. Implement Rate Limiting to prevent API abuse
 2. Come up wiht more endpoints
+3. Implement API Authentication (JWT, 0Auth, etc..)

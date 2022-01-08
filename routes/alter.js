@@ -29,14 +29,14 @@ app
   })
 
   // route for updating a single movie's info on database
-  .put('/alter/update/:id', (req, res) => {
+  .put('/alter/updateById/:id', (req, res) => {
     // updates fields from req.body
     Movie.findByIdAndUpdate({ _id: req.params.id }, req.body, (err, movie) => {
       if (err) res.send({ msg: `no movie found with id=${req.params.id}` });
 
       // send back updated document
       Movie.findById({ _id: req.params.id }, (err, movie_t) => {
-        res.send({ type: 'PUT', received: movie_t });
+        res.send({ type: 'PUT', updated: movie_t });
       });
     });
   })

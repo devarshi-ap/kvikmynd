@@ -46,8 +46,8 @@ _[ `Insomnia` testing, `Swagger` docs ]_
 ### Altering Database:
 
 - Upload movie [`POST /alter/upload`]
-- Update movie by query string [`PUT /alter/upload/<query string>`]
-- Update movie by id [`PUT /alter/upload/<id>`]
+- Update movie by query string [`PUT /alter/update/<query string>`]
+- Update movie by id [`PUT /alter/update/<id>`]
 - Delete movie by id [`DELETE /alter/removeById/<id>`]
 
 <br>

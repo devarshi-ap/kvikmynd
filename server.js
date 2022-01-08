@@ -17,6 +17,9 @@ app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: true })) // Parse URL-encoded bodies
 app.use(express.json()); // body-parser deprecated
 
+// serve api documenter static files
+app.use(express.static('public'))
+
 // mount sub-routes
 app.use('/v1/movies', require('./routes/query'))
 app.use('/v1/movies', require('./routes/category'))

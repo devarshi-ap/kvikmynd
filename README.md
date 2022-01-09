@@ -1,4 +1,6 @@
 # MCU-REST-API
+kvikmynd is Icelandic for movie theatre.
+
 A pragmatic restful api built with widely adopted standards &amp; practices for a Marvel movies-DB data model.
 
 <br>

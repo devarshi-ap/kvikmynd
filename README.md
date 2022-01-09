@@ -60,4 +60,5 @@ MONGO_URI=<YOUR_CONNECTION_URI_HERE>
 3. Install dependencies with `npm install` or `yarn` 
 4. Run `nodemon server.js` and there you have it ✨
 
+You can test the API endpoints by going to the API documentation then clicking on 'Run in Insomnia'. Then go ape crazy with the endpoints.
 The API documentation is found at http://localhost:3000/index.html

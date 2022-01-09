@@ -1,19 +1,30 @@
-# MCU-REST-API
-kvikmynd is Icelandic for movie theatre.
-
-A pragmatic restful api built with widely adopted standards &amp; practices for a Marvel movies-DB data model.
+## Quick Links
+( project links )
 
 <br>
 
----
+## Project Description
 
-## TechStack & Dependencies:
-_[ `Node.js`, `Express.js`, `Mongoose`, `MongoDB` ]_
+### What does Kvikmynd mean?
 
-_[ `Insomnia` testing, `Swagger` docs ]_
+_Kvikmynd_ is Icelandic 🇮🇸 for 'movies'. exotic amiright. Kvikmynd a pragmatic RESTful movie-catalog API built with widely adopted standards &amp; practices.
 
-**and made with ❤️**
 
+### Technologies & Tools 🛠:
+- [`Node`](https://nodejs.dev)
+- [`Express`](https://expressjs.com)
+- [`MongoDB`](https://www.mongodb.com) ([`Mongoose`](https://mongoosejs.com) ODM)
+- **and made with ❤️**
+
+#### API:
+  * /testing with [`Insomnia`](https://insomnia.rest)
+  * /documentation generation with [`Insomnia-documenter`](https://www.npmjs.com/package/insomnia-documenter)
+  * Modularized routes
+  * RESTful semantic, pluralized URLs
+  * API versioning embedded into URLs (ensures browser explorability of the resources across future versions)
+  * Result (movie JSONs) filtering, sorting & searching
+  * All resource-altering requests return a resource rep. (prevents an API consumer from having to hit API again for updated rep.)
+  * JSON only responses
 <br>
 
 ---
@@ -32,37 +43,8 @@ _[ `Insomnia` testing, `Swagger` docs ]_
 
 <br>
 
-### Querying:
-- All movies [`GET /query`]
-- Query String [`GET /query?<query string>`]
-- Sort all movies by Number-type fields (see Schema) [`GET /sort/<order>/<numerical_field>`]
-
-<br>
-
-### Query by Categories:
-- Movies tags [`GET /category/<tag name>`]
-- tags + query string [`GET /category/<tag name>?<query string>`]
-
-<br>
-
-### Altering Database:
-
-- Upload movie [`POST /alter/upload`]
-- Update movie by query string [`PUT /alter/update/<query string>`]
-- Update movie by id [`PUT /alter/update/<id>`]
-- Delete movie by id [`DELETE /alter/removeById/<id>`]
-
-<br>
-
 <pre>
-note:
-1. JSON sent in PUT requests contain fields to update)
-2. JSON sent in POST request must pass Schema Validation (see models/movie.js)
-</pre>
-
-<br>
-
 TO-DO:
 1. Implement Rate Limiting to prevent API abuse
-2. Come up wiht more endpoints
-3. Implement API Authentication (JWT, 0Auth, etc..)
+2. Implement API Authentication (JWT, 0Auth, etc..)
+</pre>

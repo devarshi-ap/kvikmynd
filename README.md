@@ -62,3 +62,4 @@ MONGO_URI=<YOUR_CONNECTION_URI_HERE>
 
 You can test the API endpoints by going to the API documentation then clicking on 'Run in Insomnia'. Then go ape crazy with the endpoints.
 The API documentation is found at http://localhost:3000/index.html
+The original entire cleaned and schema-validated movies JSON dataset is found in the /dataset dir.

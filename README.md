@@ -27,7 +27,6 @@ _Kvikmynd_ is Icelandic 🇮🇸 for 'movies'. exotic amiright. Kvikmynd a pragm
   * JSON only responses
 <br>
 
----
 
 ## API Endpoints:
 
@@ -35,10 +34,10 @@ _Kvikmynd_ is Icelandic 🇮🇸 for 'movies'. exotic amiright. Kvikmynd a pragm
 
 | HTTP Request      | Endpoints |
 | ----------- | ----------- |
-| _GET_      | `/query` <br> `/query?<query string>` <br> `/category/<tag name>` <br> `/category/<tag name>?<query string>` |
+| _GET_      | `/query` <br> `/query?<query string>` <br> `/category/:tag` <br> `/category/:tag?<query string>` <br> `/query/sort/:order/:numerical_field` |
 | _POST_   | `/alter/upload` |
-| _PUT_   | `/alter/upload/<query string>` <br> `/alter/upload/<id>` |
-| _DELETE_   | `/alter/removeById/<id>` |
+| _PUT_   | `/alter/update?<query string>` <br> `/alter/updateById/:id` |
+| _DELETE_   | `/alter/removeById/:id` |
 
 
 <br>

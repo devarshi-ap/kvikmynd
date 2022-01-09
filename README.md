@@ -47,3 +47,17 @@ TO-DO:
 1. Implement Rate Limiting to prevent API abuse
 2. Implement API Authentication (JWT, 0Auth, etc..)
 </pre>
+
+
+## Installation and Setup
+
+1. Setup .env (create .env file and add the following):
+```
+# MONGODB URI
+MONGO_URI=<YOUR_CONNECTION_URI_HERE> 
+```
+2. Install Node and Mongodb
+3. Install dependencies with `npm install` or `yarn` 
+4. Run `nodemon server.js` and there you have it ✨
+
+The API documentation is found at http://localhost:3000/index.html

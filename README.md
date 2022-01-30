@@ -1,8 +1,6 @@
 ## Quick Links
 ( project links )
 
-hi
-
 <br>
 
 ## Project Description

@@ -39,7 +39,6 @@ _Kvikmynd_ is Icelandic 🇮🇸 for 'movies'. exotic amiright. Kvikmynd a pragm
 | _PUT_   | `/alter/update?<query string>` <br> `/alter/updateById/:id` |
 | _DELETE_   | `/alter/removeById/:id` |
 
-
 <br>
 
 <pre>

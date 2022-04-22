@@ -17,8 +17,8 @@ _Kvikmynd_ is Icelandic 🇮🇸 for 'movies'. exotic amiright. Kvikmynd a pragm
 - **and made with ❤️**
 
 #### API:
-  * /testing with [`Insomnia`](https://insomnia.rest)
-  * /documentation generation with [`Insomnia-documenter`](https://www.npmjs.com/package/insomnia-documenter)
+  * testing with [`Insomnia`](https://insomnia.rest)
+  * documentation generation with [`Insomnia-documenter`](https://www.npmjs.com/package/insomnia-documenter)
   * Modularized routes
   * RESTful semantic, pluralized URLs
   * API versioning embedded into URLs (ensures browser explorability of the resources across future versions)
